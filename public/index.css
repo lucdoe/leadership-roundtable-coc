@@ -1,0 +1,72 @@
+/* Base styles - mobile-first approach */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    padding: 20px;
+}
+
+/* Responsive typography */
+h1 {
+    font-size: 1.5rem; /* Suitable for mobile */
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+/* Add more base styles for mobile here */
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    h1 {
+        font-size: 2rem; /* Larger font size for tablets and up */
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        padding: 40px; /* More padding for larger screens */
+    }
+
+    /* Adjust styles for tablet here */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    h1 {
+        font-size: 2.5rem; /* Even larger font size for desktops */
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .container {
+        padding: 60px;
+    }
+
+    /* Adjust styles for desktop here */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 3rem; /* Largest font size for large desktops */
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    .container {
+        padding: 80px;
+    }
+
+    /* Adjust styles for large desktops here */
+}
